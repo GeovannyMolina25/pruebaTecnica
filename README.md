@@ -1,4 +1,4 @@
-# pruebaTecnica
+![image](https://github.com/user-attachments/assets/d073329a-d3f7-412d-b5ea-1128b861dfa7)# pruebaTecnica
 Este proyecto fue realizado con las tecnologias de ASP .NET 8, Angular 19 y Microsoft SQL Server 2019
 
 **Requisitos**
@@ -35,13 +35,38 @@ Server=DESKTOP-SGA0PI5;Database=appInventarioDB;User Id=Nelson;Password=123456;T
 como el **Server**, **Database**, **User**, **Id** y **Password** esto lo podemos encontrar en nuestro Microsotf SQL server al momento de inicial seccion:
 ![image](https://github.com/user-attachments/assets/ac9d692c-9221-412e-bdb0-b8f3570556d0)
 
-Ejecución del Frontend
+**Nota** recuerda que debes hacer esto con los dos proyectos 
+por ultimo para correr el proyecto, debemos hacer que si inician los dos proyectos en nuestra solucion, para eso nos vamos a la parte de arriba de nuestro visual estudio 2022, abrimos la pestaña que esta alado del boton inicial:
+
+![image](https://github.com/user-attachments/assets/5f71f9b2-c896-43be-aeb6-12e9d5dc8a0d)
+
+Le damos en **Configurar proyecto de inicio** y nos saldra la siguiente pantalla:
+![image](https://github.com/user-attachments/assets/e40dccba-95f6-44a1-9fbc-20d143d1d16c)
+aqui debemos poner la siguiente configuracion para que se pueda ejecutar los dos proyectos :
+![image](https://github.com/user-attachments/assets/d6cb706a-0c2d-4288-95ef-bf7c780468cf)
+
+y cerramos una vez cerrado debemos inicial el proyecto dandole en el boton **Iniciar** "La fecha verde"
+![image](https://github.com/user-attachments/assets/22a176d1-cf91-4746-a4aa-ee3c3f89dc40)
+Comenzara a correr nuestro proyecto 
+**Importante**: No olvidarse que nosotros utilizamos los paquetes entity Framework Core, ntity Framework Core SqlServer, ntity Framework Core Sqlite diseng que lo podemos intalar con estos comandos desde el terminal:
+Paquetes :
+- dotnet add package Microsoft.EntityFrameworkCore
+- dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+- dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+
+EJECUCION DEL FRONTEND
 
 cd pruebaTecnica/frontend/appInventario
 debemos de intalar 
 - npm install
-y angular 19 y angular material: 
-despues en el teminal escribimos ng serve
+y angular 19 y angular material:
+Podemos poner en la tarminal de visual estudio code:
+**Paquetes**
+- npm install
+- ng update @angular/core@19 @angular/cli@19
+- ng add @angular/material
+
+despues en el teminal escribimos ng serve 
 y se nos abrira el proyecto
 Evidencias
 A continuación se muestran capturas de pantalla que demuestran la funcionalidad del sistema:
