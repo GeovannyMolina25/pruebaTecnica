@@ -68,27 +68,27 @@ Podemos poner en la tarminal de visual estudio code:
 
 despues en el teminal escribimos ng serve 
 y se nos abrira el proyecto
-Evidencias
+**Evidencias**
 A continuación se muestran capturas de pantalla que demuestran la funcionalidad del sistema:
 
 - Listado dinámico de productos y transacciones con paginación
-Productos
+- - Productos
 ![image](https://github.com/user-attachments/assets/33c92b6f-f5e4-492b-b5a6-64b54dde48e3)
-Transacciones
+- - Transacciones
  ![image](https://github.com/user-attachments/assets/ad894c30-4019-47aa-abc8-918e1944e9ca)
-Pantalla para la creación de productos.
+- Pantalla para la creación de productos.
 ![image](https://github.com/user-attachments/assets/0b5e2b79-3e3f-4058-8a44-4ba71f3f2c2f)
-Pantalla para la edición de productos.
+- Pantalla para la edición de productos.
 ![image](https://github.com/user-attachments/assets/bf1c746a-b817-4de7-8af6-7341efb02204)
-Pantalla para la creación de transacciones.
+- Pantalla para la creación de transacciones.
 ![image](https://github.com/user-attachments/assets/78d3bcfc-60c4-4814-a068-19891ad0be76)
-Pantalla para la edición de transacciones.
+- Pantalla para la edición de transacciones.
 
 ![image](https://github.com/user-attachments/assets/b5cbbeae-2294-4040-9f27-7aca55e14fd3)
 
-• Pantalla de filtros dinámicos.
+- Pantalla de filtros dinámicos.
 
 ![image](https://github.com/user-attachments/assets/daf8be41-e3a8-4d68-af58-664b8c6642bd)
-Pantalla para la consulta de información de un formulario (extra).
+- Pantalla para la consulta de información de un formulario (extra).
 ![image](https://github.com/user-attachments/assets/319ae991-6ab4-4679-a619-09e81708725c)
 
