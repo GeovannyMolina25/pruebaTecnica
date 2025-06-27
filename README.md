@@ -1,7 +1,7 @@
 # pruebaTecnica
 Este proyecto fue realizado con las tecnologias de ASP .NET 8, Angular 19 y Microsoft SQL Server 2019
 
-**Requisitos
+**Requisitos**
 Para ejecutar el proyecto en un entorno local necesitas:
 
 - .NET 6 SDK o superior instalado (para el backend), puede descargarlo en https://dotnet.microsoft.com/download
@@ -24,6 +24,16 @@ Una vez adentro podemos poner en la terminal para poder ejecutar el proyecto
 - dotnet run
 o podemos entrar ala carpeta del backent pruebaTecnica/backend/appInventario desde Visual estudio 2022 y presionar el boton inicial :
 ![image](https://github.com/user-attachments/assets/ed588a87-129f-4aed-b57d-805eb552c887)
+
+Despues debemos conectar nuestra base de datos en nuestra sulucion podemos ver nuestros proyectos los cuales usan los dos asincronicamente la base de datos, en el explorador de soluciones estara asi :
+![image](https://github.com/user-attachments/assets/62b334fc-9f31-4e78-b820-f5d27fad1f25)
+- nosotros debemos ir al documneto llamado **appsettings.json** abrimos el documento y debemos poner nuestras credenciales :
+![image](https://github.com/user-attachments/assets/d578392f-c25c-4c4a-913c-aef1939f5c42)
+
+Encontraremos algo parecido, y nosotros debemos de cambiar la infomacion que tiene nuestra cadena :
+Server=DESKTOP-SGA0PI5;Database=appInventarioDB;User Id=Nelson;Password=123456;TrustServerCertificate=True
+como el **Server**, **Database**, **User**, **Id** y **Password** esto lo podemos encontrar en nuestro Microsotf SQL server al momento de inicial seccion:
+![image](https://github.com/user-attachments/assets/ac9d692c-9221-412e-bdb0-b8f3570556d0)
 
 Ejecución del Frontend
 
